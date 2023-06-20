@@ -5,7 +5,7 @@ secret_key = "f7iTo2rkBwxtt5AJf7Gzyhgoc5XtbT/F83/RwImf"
 }
 
 resource "aws_instance" "one" {
-ami = "ami-0f8ca728008ff5af4"
+ami = "ami-090e0fc566929d98b"
 instance_type = "t2.micro"
 tags = {
 Name = "web-server"
